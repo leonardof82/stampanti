@@ -35,7 +35,7 @@ class Catalogo():
         for stampante in self.modelli:
             if stampante.nome_modello == nome_modello:
                 print("stampante trovata:")
-                immobile.stampa_info()
+                stampante.stampa_info()
     def stampa_catalogo(self):
         for stampante in self.modelli:
             stampante.stampa_info()
